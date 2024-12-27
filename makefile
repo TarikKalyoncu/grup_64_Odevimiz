@@ -1,7 +1,5 @@
-/*
- * Hasan Buğra Uslu G211210009  2C
- * Tarık Kalyoncu  G211210030 2C
- */
+# Hasan Buğra Uslu G211210009  2C
+# Tarık Kalyoncu  G211210030 2C
 
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
@@ -15,5 +13,3 @@ $(TARGET): $(SOURCES)
 
 clean:
 	rm -f $(TARGET)
-
-
